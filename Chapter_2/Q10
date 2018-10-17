@@ -1,0 +1,19 @@
+The East Coast sales division of a company generates 58 percent of total sales. Based
+on that percentage, write a program that will predict how much the East Coast division
+will generate if the company has $8.6 million in sales this year. 
+
+
+Solution-
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+ double salesdiv = 0.52;
+ double salescomp = 8.6; 
+ double division = salesdiv * salescomp;
+ cout <<division << " million " << endl;
+
+ return 0;
+}
