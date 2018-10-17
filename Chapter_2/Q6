@@ -1,0 +1,19 @@
+Write a program that stores your name, address, and phone number in three
+separate string objects. Display the contents of the string objects on the
+screen. 
+
+Solution-
+
+#include <iostream>
+#include <string>
+
+int main ()
+{
+string name = "HIMANSHU KUMAR";
+string address = "235, raghunath puri 2";
+string phone = "9772248704";
+cout << name << endl;
+cout << address << endl;
+cout << phone << endl;
+return 0;
+}
