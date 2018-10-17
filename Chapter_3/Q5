@@ -1,0 +1,22 @@
+A retail store grants its customers a maximum amount of credit. Each customer’s available
+credit is his or her maximum amount of credit minus the amount of credit used.
+Write a pseudocode algorithm for a program that asks for a customer’s maximum
+amount of credit and amount of credit used. The program should then display the
+customer’s available credit.
+ After you write the pseudocode algorithm, convert it to a complete C++ program. 
+
+
+Solutions-
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+double maxCredit, creditUsed, availCredit;
+cin >> maxCredit;
+cin >> creditUsed;
+availableCredit = maxCredit - creditUsed;
+cout << availCredit << endl;
+return 0;
+}
