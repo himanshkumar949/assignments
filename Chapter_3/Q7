@@ -31,8 +31,7 @@ cout << "Enter city: ";
 getline(cin, city);
 
 cout << "Enter age: ";
-cin >> age;
-cin.ignore();
+getline(cin, age);
 
 cout << "Enter college: ";
 getline(cin, college);
