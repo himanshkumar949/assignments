@@ -1,0 +1,8 @@
+if (sales >= 50000.00)
+{
+  commissionRate = 0.20;
+  }
+ else
+ {
+  commissionRate = 0.10;
+ }
