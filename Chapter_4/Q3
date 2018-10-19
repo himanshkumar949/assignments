@@ -1,0 +1,4 @@
+if(price>500)
+{
+ discountRate=0.2;
+}
