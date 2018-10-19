@@ -1,0 +1,39 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+ 
+int main() {
+ 
+	int penny 	= 1;
+ int nickle 	= 5;
+ int dime 		= 10;
+	int quarter = 25;
+
+	int pen; 
+	int nick;
+	int dime;  
+	int quart; 
+	int total;   
+ 
+	cout << "Enter the number of pennies: " << endl;
+	cin >> pen;
+	cout << "Enter the number of nickles: " << endl;
+	cin >> nick;
+	cout << "Enter the number of dimes: " << endl;
+	cin >> dime; 
+	cout << "Enter the number of quarters: " << endl;
+	cin >> quart;
+ 
+	total = (penny * pen) + (nickle * nick) + (dime * dime) +
+		(quarter * quart);
+ 
+
+	if ( total == 100)
+		cout << "Congradulations, You Have Won a Million Dollars!" << endl;
+	else if (total > 100)
+		cout << "Your total amount is more than one dollar. ";
+	else
+		cout << "Your total amount is less than one dollar. ";
+ 
+	return 0;
+}
