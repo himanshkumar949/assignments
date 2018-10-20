@@ -1,0 +1,4 @@
+ofstream outputFile("hk.txt");
+for (int i = 1; i <= 10; i++)
+outputFile << i << endl;
+outputFile.close();
