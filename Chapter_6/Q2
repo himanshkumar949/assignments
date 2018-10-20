@@ -1,0 +1,4 @@
+void timesTen(int number)
+{
+COUT<<(10*NUMBER);
+}
