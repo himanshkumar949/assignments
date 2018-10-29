@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+const int NUM_FISH = 20;
+int fish[20], count;
+cout << "Enter the number of fish caught\n";
+cout << "by each fisherman.\n";
+for (count = 0; count < NUM_FISH; count++)
+{
+cout << "fisherman " << (count+1) << ": ";
+cin >> fish[count];
+}
+return 0;
+}
