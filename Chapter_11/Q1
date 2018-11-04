@@ -1,0 +1,7 @@
+struct Account
+{
+string accountNumber;
+double accountBalance;
+double interestRate;
+double avgBalance;
+};
