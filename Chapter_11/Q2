@@ -1,0 +1,28 @@
+#include <iostream>
+#include <string>
+using namespace std; 
+struct Movie
+{
+string name;
+string director;
+string producer;
+string year;
+};
+int main()
+{
+Movie favorite;
+cout << "Enter the following information about your\nfavorite movie.\nName:";
+getline(cin, favorite.name);
+cout << "Director: ";
+getline(cin, favorite.director);
+cout << "Producer: ";
+getline(cin, favorite.producer);
+cout << "Year of release: ";
+getline(cin, favorite.year);
+cout << "Here is information on your favorite movie:\n";
+cout << "Name: " << favorite.name << endl;
+cout << "Director: " << favorite.director << endl;
+cout << "Producer: " << favorite.producer << endl;
+cout << "Year of release: " << favorite.year << endl;
+return 0;
+}
