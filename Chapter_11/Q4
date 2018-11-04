@@ -1,0 +1,7 @@
+void getRect(Rectangle &r)
+{
+cout << "Width: ";
+cin >> r.width;
+cout << "length: ";
+cin >> r.length;
+}
